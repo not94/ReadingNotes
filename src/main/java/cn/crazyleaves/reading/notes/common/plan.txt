@@ -1,0 +1,5 @@
+1. 将Part，Chapter，outline声明指定的注解，供外部调用
+2. outline抽象出一些常用的方法，如创建xmind文件，更新xmind文件
+3. 目前的布局打算采用一本书一个workbook，每一个章节都是一张sheet，默认sheet会将所有章节统合起来
+4. 实现Java的热部署，每当编译完整的时候，自动将更新的内容输入到resources文件中
+5. 有一个统一的main文件负责读取所有的Outline，写入内容
